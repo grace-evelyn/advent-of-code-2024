@@ -12,7 +12,7 @@ public class Day1 {
 		ArrayList<Integer> leftList = new ArrayList<>();
 		ArrayList<Integer> rightList = new ArrayList<>();
 		
-		try (Scanner scanner = new Scanner(new File("input.txt"))) {
+		try (Scanner scanner = new Scanner(new File("days/day1/input1.txt"))) {
 			while (scanner.hasNextInt()) {
 				leftList.add(scanner.nextInt());
 				rightList.add(scanner.nextInt());
