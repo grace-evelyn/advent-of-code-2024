@@ -17,7 +17,7 @@ public class Day2 {
 			while ((report = reader.readLine()) != null) {
 				List<Integer> levels = new ArrayList<>();
 				for (String num : report.split(" ")) {
-					levels.add(Integer.parseInt(num));
+					levels.add(Integer.valueOf(num));
 				}
 
 				reports.add(levels);
